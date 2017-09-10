@@ -9,7 +9,7 @@ if (process.env.DATABASE_SERVICE_NAME) {
   var mongodburl = 'mongodb://' + mongoUser + ':' + mongoPassword + '@127.0.0.1:27017/' + mongoDatabase;
 }
 
-console.log(mongodburl)
+console.log(mongodburl);
 
 
 
